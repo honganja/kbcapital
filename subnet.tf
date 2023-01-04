@@ -5,7 +5,7 @@ resource "aws_subnet" "ap-az1" {
   availability_zone = "us-east-1a"
 
   tags = {
-    Name = "kbcapital-ap-az1"
+    Name = "kbcapital-prod-ap-az1"
   }
 }
 
@@ -17,6 +17,6 @@ resource "aws_subnet" "ap-az3" {
   availability_zone = "us-east-1c"
 
   tags = {
-    Name = "kbcapital-ap-az3"
+    Name = "kbcapital-prod-ap-az3"
   }
 }
