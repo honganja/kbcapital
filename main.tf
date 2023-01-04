@@ -3,6 +3,6 @@ resource "aws_instance" "kbcapital-web1" {
   instance_type = "t2.micro"
   
   tags = {
-    Name = "kbcapital-web1"
+    Name = "kbcapital-web2"
   }
 }
