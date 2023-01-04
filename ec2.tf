@@ -1,4 +1,4 @@
-resource "aws_instance" "kbcapital-web2" {
+resource "aws_instance" "kbcapital-develop-web2" {
   ami = "ami-0574da719dca65348"
   instance_type = "t2.micro"
   vpc_security_group_ids = [aws_security_group.instance.id]
@@ -10,7 +10,7 @@ resource "aws_instance" "kbcapital-web2" {
                 EOF
   
   tags = {
-    Name = "kbcapital-web2"
+    Name = "kbcapital-develop-web2"
   }
 }
 
