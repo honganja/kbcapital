@@ -10,7 +10,7 @@ resource "aws_subnet" "ap-develop-az1" {
 }
 
 
-resource "aws_subnet" "ap-develop-az1" {
+resource "aws_subnet" "ap-develop-az3" {
   vpc_id     = aws_vpc.kbcapital-develop.id
   cidr_block = "10.11.2.0/24"
 
